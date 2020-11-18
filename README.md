@@ -30,18 +30,18 @@ npm install
 ```js
 pm2 start --watch --env development
 pm2 logs
-pm2 stop NODE_EXPRESS_API
+pm2 stop NODE_EXPRES_REALTIME_API_DEV
 ```
 ### Production 
 
 ```js
 pm2 start --watch --env production
 pm2 logs
-pm2 stop NODE_EXPRESS_API
+pm2 stop NODE_EXPRES_REALTIME_API
 ```
 
 ## URL
 
 ```js
-http://localhost:4012/api\
+http://localhost:4013/api\
 ```
