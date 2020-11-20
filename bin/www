@@ -56,8 +56,8 @@ server.on('listening', onListening);
  * Attach Server to Notification Socket
  * ******************************************
  */
+notificationsocket(io);
 
- notificationsocket(io);
  /**
   * *****************************************
   */
